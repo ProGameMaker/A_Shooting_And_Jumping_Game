@@ -339,7 +339,7 @@ class GameScene: SKScene {
     func projectileDidCollideWithMonster(projectile: mySpriteNode, monster: mySpriteNode) {
         //print("Hit")
 
-        run(SKAction.playSoundFileNamed("Source/sounds/boulder_impact_from_catapult_or_trebuchet.mp3", waitForCompletion: false))
+        //run(SKAction.playSoundFileNamed("Source/sounds/boulder_impact_from_catapult_or_trebuchet.mp3", waitForCompletion: false))
         
         if (projectile == mainChar) {
             //print(IsCollide)
